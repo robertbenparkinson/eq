@@ -40,6 +40,7 @@ Modules
 - About Us
 - Advertise with Us
 - Services
+- 
 
 ## Main Menu
 ### Articles
@@ -93,18 +94,50 @@ Modules
 - Advertise with Us
 - Services
 
+## Profile Menu
+ - Works
+ - Blog
+ - Events
+ - Mi Piace 
+ - Info -- Connects back to the Profile page, should cut
 
 ## links and aliases 
 * www.equilibriarte.net		(Home Page)
-  * /article/index			(Main Article Index)
+  * /article/index			 (Main Article Index)
     * /article/index/[1-14]		(Article Categories)
     * /article/[Article ID #]	(Individual Article)
-  * event/index				(Main Event Index)
-    * event/[Event ID #]		(Individual Event)
-    * event/exhibitions/[Event ID #]	(Event Exhibitions)
-    * event/about/[Event ID #]	(Event About Page)
-    * event/images/[Event ID #]	(Event Images Page)
-    * event/contact/[Event ID #]	(Event Contact Page)
+  * /event/index				   (Main Event Index)
+    * /event/[Event ID #]		(Individual Event)
+    * /event/exhibitions/[Event ID #]	(Event Exhibitions)
+    * /event/about/[Event ID #]	(Event About Page)
+    * /event/images/[Event ID #]	(Event Images Page)
+    * /event/contact/[Event ID #]	(Event Contact Page)
+  * /profile/index     (Main Profile Index)
+    * /profile/['user name]  -- User Profile
+      * /profile/['user name]/works
+        * /profile/['user name]/works/['gallery id'] --must check to see if that is the right id
+      * /profile/['user name]/blog
+      * /profile/['user name]/events
+      * /profile/['user name]/likes
+      
+      
+    
+    
+  * /location/index    (Main Location Index)
+  * /blog/index        (Main Blog Index)
+  * /gallery/index     (Main Gallery Index)
+  * /forum/forum/index
+    * /forum/forum/[Forum category ID]
+      * /forum/thread/[Forum Thread ID]
+  * /product/index
+    * /product/request  -- Error 404 No Page Found 
+    * /product/[Product ID]
+  
+  
+## Types of Content 
+- Articles
+- Blogs
+- Products
 
 
 
@@ -219,6 +252,124 @@ Events Exhibitions Page
 //same full page content region
 //Why does this page exist?!?
 
+## User Profile Page -- /profile/['user name]
+//Same Headers and Footers
+* Above Content Region -- col-md-12
+  * Profile Cover Photo Block
+    * Profil Image Field
+    * User Name Field
+  * Profile Menu Block
+* Content Region -- col-md-09
+  * Bio Block -- possibly a new content type?!?
+    * Profile Image field
+    * Member Type field
+    * Location field
+    * Email field
+    * Bio field
+  * Social media block
+  * Comments block
+* Right Side Bar Region -- col-md-03
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+
+
+
+## User Profile Individual Works Page
+//Headers and Footer are the same
+* Above Content Region -- col-md-12
+  * Profile Cover Photo Block
+    * Profil Image Field
+    * User Name Field
+  * Profile Menu Block
+* Content Regioin -- col-md-09
+  * Album Block
+    * Album Title Field
+    * Image Field  -- Thumbnial 
+  * Individual Works Block 
+    * Work Title Field
+    * Image Field -- Large
+    * Author Field 
+    * Title Field
+    * Year Field
+  * Social Media Block
+  * Page Stats Block
+  * Comments Block
+* Right Side Bar Region -- col-md-03
+  * Ad Block
+  * Square Gallery Teaser Block -- three galleries
+  * Ad Block
+  * Square Gallery Teaser Block -- three galleries
+  * Ad Block
+  * Square Gallery Teaser Block -- three galleries
+  
+
+
+
+## Gallery Index Page --   /gallery/index     (Main Gallery Index)
+//Same Headers and Footers
+* Content Region -- col-md-09
+  * Gallery Slider Block -- three Galleries
+  * Large Rectangle Gallery Teaser Block -- ten galleries
+* Right Side Bar Region -- col-md-03
+  * Reorder Galleries Block
+  * Ad Block
+  * Square Gallery Teaser Block -- three galleries
+  * Ad Block
+  * Square Gallery Teaser Block -- three galleries
+  * Ad Block
+  * Square Gallery Teaser Block -- three galleries
+
+## Forum Index Page -- /forum/forum/index
+//Same Headers and Footers
+//No real indivdual formating
+* Content Region -- col-md-12
+
+## Forum Category Page -- /forum/forum/[Forum category ID]
+//Same Headers and Footer
+* Content Region -- col-md-09
+  * Top Thread Block
+  * Other Treads Block
+* Right Side Bar Region -- col-md-03
+  * Ad Block
+
+## Forum Threads Page -- /forum/thread/[Forum Thread ID]
+//Same Headers and Footer
+* Content Region -- col-md-09
+  * Top Thread Block
+  * Other Treads Block
+* Right Side Bar Region -- col-md-03
+  * Ad Block
+
+## Product Index Page
+//Same Headers and Footers
+* Content Region -- col-md-09
+  * Product slider Block -- three products
+  * Product Teaser Block 
+* Right Side Bar Region -- col-md-03
+  * Sell Your Product with US Block
+  * Ad Block
+  * Latest Guides Block
+  
+  
+
+## Individual Products Page -- /product/[Product ID]
+//Same Headers and Footers
+* Content Region -- col-md-09
+  * Product Content Block
+    * Product Price Field
+  * Mi Piace Block
+  * Comment Block
+* Right Side Bar Region -- col-md-03
+  * Buy Now Block
+  * Ad Block
+  * Latest Guides Block
+  
+
+    
+  
+  
 
 
 
