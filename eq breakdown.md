@@ -139,11 +139,8 @@ Modules
 - Blogs
 - Products
 
-
-
-
-Front Page Regions
--page_top
+## Front Page
+* page_top region -- col-md-12
 --logo
 --site name
 --main menu
