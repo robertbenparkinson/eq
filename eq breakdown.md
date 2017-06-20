@@ -16,85 +16,97 @@ Modules
   * Eq_migrate
 
 
-Pages
--Home
--Policy (change to Policies)
--Legal notes (change to notices)
--FAQ
--About Us
--Advertise with Us
--Services
+## Individual Pages
+- Home
+- Article
+- Painting
+- Photography
+- Fashion &amp; Style
+- Contests &amp; Courses
+- Video, Cinema &amp; Music
+- Illustration
+- Tutorials and guides
+- Art Techniques
+- Exhibitions
+- Design
+- Street Art
+- Architecture
+- Art from the Web
+- Sculpture &amp; Installations
+- Page for individual Articles
+- Policy (Should change to Policies)
+- Legal notes (Should change to Notices)
+- FAQ
+- About Us
+- Advertise with Us
+- Services
+
+## Main Menu
+### Articles
+- Article
+- Painting
+- Photography
+- Fashion &amp; Style
+- Contests &amp; Courses
+- Video, Cinema &amp; Music
+- Illustration
+- Tutorials and guides
+- Art Techniques
+- Exhibitions
+- Design
+- Street Art
+- Architecture
+- Art from the Web
+- Sculpture &amp; Installations
+
+### Events
+- add events
+- Today&#039;s events
+- Upcoming events
+- ongoing events
+- tutti gli eventi
+- tutto il mondo
+
+### Community
+- members
+- venues
+- blog
+- works
+- forum
+- Guides
+
+### Languages
+- en
+- it
+- de
+- ru
+- es
+- fr
+
+### Search Bar and Button
+
+## Footer Menu
+- Policy
+- Legal notes
+- FAQ
+- About Us
+- Advertise with Us
+- Services
 
 
-links and aliases 
---www.equilibriarte.net		(Home Page)
-
---/article/index			(Main Article Index)
---/article/index/[1-14]		(Article Categories)
---article/[Article ID #]	(Individual Article)
-
---event/index				(Main Event Index)
---event/[Event ID #]		(Individual Event)
---event/exhibitions/[Event ID #]	(Event Exhibitions)
---event/about/[Event ID #]	(Event About Page)
---event/images/[Event ID #]	(Event Images Page)
---event/contact/[Event ID #]	(Event Contact Page)
+## links and aliases 
+* www.equilibriarte.net		(Home Page)
+  * /article/index			(Main Article Index)
+    * /article/index/[1-14]		(Article Categories)
+    * /article/[Article ID #]	(Individual Article)
+  * event/index				(Main Event Index)
+    * event/[Event ID #]		(Individual Event)
+    * event/exhibitions/[Event ID #]	(Event Exhibitions)
+    * event/about/[Event ID #]	(Event About Page)
+    * event/images/[Event ID #]	(Event Images Page)
+    * event/contact/[Event ID #]	(Event Contact Page)
 
 
-
-
-
-
-Main Menu
-Articles
-<li><a href="/article/index/2">Painting</a></li>
-<li><a href="/article/index/1">Photography</a></li>
-<li><a href="/article/index/6">Fashion &amp; Style</a></li>
-<li><a href="/article/index/11">Contests &amp; Courses</a></li>
-<li><a href="/article/index/10">Video, Cinema &amp; Music</a></li>
-<li><a href="/article/index/5">Illustration</a></li>
-<li><a href="/article/index/13">Tutorials and guides</a></li>
-<li><a href="/article/index/8">Art Techniques</a></li>
-<li><a href="/article/index/12">Exhibitions</a></li>
-<li><a href="/article/index/4">Design</a></li>
-<li><a href="/article/index/3">Street Art</a></li>
-<li><a href="/article/index/7">Architecture</a></li>
-<li><a href="/article/index/14">Art from the Web</a></li>
-<li><a href="/article/index/9">Sculpture &amp; Installations</a></li>
-
-Events
-<li class="border-bottom"><a href="/event/create">add event</a></li>
-<li><a href="/event/index/when/today">Today&#039;s events</a></li>
-<li><a href="/event/index/when/upcoming">Upcoming events</a></li>
-<li><a href="/event/index">ongoing events</a></li>
-<li><a href="/event/index/when/all">tutti gli eventi</a></li>
-<li><a href="/event/allCountries/when/all">tutto il mondo</a></li>
-
-Community
-<li><a href="/profile/index">members</a></li>
-<li><a href="/location/index">venues</a></li>
-<li><a href="/blog/index">blog</a></li>
-<li><a href="/gallery/index">works</a></li>
-<li><a href="/forum/forum/index">forum</a></li>
-<li><a href="/product/index">Guides</a></li>
-
-Languages
--en
--it
--de
--ru
--es
--fr
-
-Search Bar and Button
-
-Footer Menu
--Policy
--Legal notes
--FAQ
--About Us
--Advertise with Us
--Services
 
 
 Front Page Regions
@@ -210,7 +222,43 @@ Events Exhibitions Page
 
 
 
-   
+## Misc Stuff
+
+
+Articles
+<li><a href="/article/index/2">Painting</a></li>
+<li><a href="/article/index/1">Photography</a></li>
+<li><a href="/article/index/6">Fashion &amp; Style</a></li>
+<li><a href="/article/index/11">Contests &amp; Courses</a></li>
+<li><a href="/article/index/10">Video, Cinema &amp; Music</a></li>
+<li><a href="/article/index/5">Illustration</a></li>
+<li><a href="/article/index/13">Tutorials and guides</a></li>
+<li><a href="/article/index/8">Art Techniques</a></li>
+<li><a href="/article/index/12">Exhibitions</a></li>
+<li><a href="/article/index/4">Design</a></li>
+<li><a href="/article/index/3">Street Art</a></li>
+<li><a href="/article/index/7">Architecture</a></li>
+<li><a href="/article/index/14">Art from the Web</a></li>
+<li><a href="/article/index/9">Sculpture &amp; Installations</a></li>
+
+
+
+##Community
+<li><a href="/profile/index">members</a></li>
+<li><a href="/location/index">venues</a></li>
+<li><a href="/blog/index">blog</a></li>
+<li><a href="/gallery/index">works</a></li>
+<li><a href="/forum/forum/index">forum</a></li>
+<li><a href="/product/index">Guides</a></li>
+-
+
+Events
+<li class="border-bottom"><a href="/event/create">add event</a></li>
+<li><a href="/event/index/when/today">Today&#039;s events</a></li>
+<li><a href="/event/index/when/upcoming">Upcoming events</a></li>
+<li><a href="/event/index">ongoing events</a></li>
+<li><a href="/event/index/when/all">tutti gli eventi</a></li>
+<li><a href="/event/allCountries/when/all">tutto il mondo</a></li>
 
 
 
