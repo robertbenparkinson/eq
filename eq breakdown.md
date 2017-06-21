@@ -158,6 +158,8 @@ Modules
 - Blogs
 - Products
 - Artists (user profiles) ???
+- Events
+- Locations
 
 ## Front Page -- index
 * Top Header region -- col-md-12
