@@ -104,8 +104,21 @@ Modules
 ## links and aliases 
 * www.equilibriarte.net		(Home Page)
   * /article/index			 (Main Article Index)
-    * /article/index/[1-14]		(Article Categories)
-    * /article/[Article ID #]	(Individual Article)
+    * /article/index/[1]		
+    * /article/index/[2]
+    * /article/index/[3]
+    * /article/index/[4]
+    * /article/index/[5]    
+    * /article/index/[6]
+    * /article/index/[7]
+    * /article/index/[8]
+    * /article/index/[9]
+    * /article/index/[10]
+    * /article/index/[11]
+    * /article/index/[12]
+    * /article/index/[13]
+    * /article/index/[14]
+      * /article/[Article ID #]	(Individual Article)
   * /event/index				   (Main Event Index)
     * /event/[Event ID #]		(Individual Event)
     * /event/exhibitions/[Event ID #]	(Event Exhibitions)
@@ -120,9 +133,9 @@ Modules
         * /profile/['user name']/blog/['Blog ID']
       * /profile/['user name]/events
         * -- Events???
-      * /profile/['user name]/likes
-          
+      * /profile/['user name]/likes          
   * /location/index    (Main Location Index)
+    * /location['Location ID']
   * /blog/index        (Main Blog Index)
   * /gallery/index     (Main Gallery Index)
   * /forum/forum/index
@@ -131,6 +144,13 @@ Modules
   * /product/index
     * /product/request  -- Error 404 No Page Found 
     * /product/[Product ID]
+  * /policy
+  * /legal
+  * /FAQ
+  * /about-us
+  * /advertise-with-us
+  * /services
+  
   
   
 ## Types of Content 
@@ -140,7 +160,7 @@ Modules
 - Artists (user profiles) ???
 
 ## Front Page -- index
-* Page_top region -- col-md-12
+* Top Header region -- col-md-12
   * Branding Block -- logo and site name
   * Main Menu Block
   * Search Form Block
@@ -177,38 +197,100 @@ Modules
   * Featured articles slider block -- three articles
   * Most recent articles block -- Large teasers -- 10 articles 
 * Right Side Bar Region -- col-md-03 
+  * Reorder Articles Block
+  * Ad Block
+  * Calender Block -- Does it work?
+  * Most Recent Painting Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Photography Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Fashion Article Block -- Rectangle Teaser -- 1 article
+  * Ad Block
+  * Most Recent Contest Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Video, Cinema and Music Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Illustration Article Block -- Rectangle Teaser -- 1 article
+  * Ad Block
+  * Most Recent Tutorial Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Art Techniques Article Block -- Rectangle Teaser -- 1 article 
+  * Most Recent Exhibitionis Article Block -- Rectangle Teaser -- 1 article
+  * Ad Block
+  * Most Recent Design Article Block -- Rectangle Teaser -- 1 article
 
---ad block
---calender block (does it work?)
---most recent article on painting block (1 article)
---most recent article on photography block (1 article)
---most recent article on fashion block (1 article)
---ad block 
---most recent article contest and courses on block (1 article)
-
---most recent article on video, cinema, and music block (1 article)
---most recent article on Illustration block (1 article)
---ad block
---most recent article on art techniques block (1 article)
-
---most recent article on exhibitions block (1 article)
-
--ad block
---most recent article on design block (1 article)
-
+## Articles Subcategories Pages -- /article/index/[1-14]
 //Each of the 14 different article sections follow the same layout as articles page
 
-//Individual Article page follows the same set up as articles page
+## Individual Article Page -- /article/["article id"]
+//Same Headers and Footers
+* Content Region 
+  * Article Block
+  * Social Media Block
+  * Mi Piace Block
+  * Photo Works Block
+  * Comments block
+* Right Side Bar Region -- col-md-03 
+  * Reorder Articles Block
+  * Ad Block
+  * Calender Block -- Does it work?
+  * Most Recent Painting Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Photography Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Fashion Article Block -- Rectangle Teaser -- 1 article
+  * Ad Block
+  * Most Recent Contest Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Video, Cinema and Music Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Illustration Article Block -- Rectangle Teaser -- 1 article
+  * Ad Block
+  * Most Recent Tutorial Article Block -- Rectangle Teaser -- 1 article
+  * Most Recent Art Techniques Article Block -- Rectangle Teaser -- 1 article 
+  * Most Recent Exhibitionis Article Block -- Rectangle Teaser -- 1 article
+  * Ad Block
+  * Most Recent Design Article Block -- Rectangle Teaser -- 1 article
+
+## Events Page
+//Same Headers and Footers
+* Subheader Region -- col-md-12
+  * Event Country Block
+* Content Region -- col-md-09
+  * Events Slider Block -- three events
+  * Events Teaser Block -- five most recent events
+* Right Side Bar Region -- col-md-03  
+ * Order Events Block
+ * Calender Block
+ * Ad Block
+ * Featured Events Block -- three events -- small rectangle teasers
+ * Ad Block
+ * Featured Events Block -- two events -- small rectangle teasers
+ 
+ ## Individual Events Page
+ //Same Headers and Footers
+ 
+ ## Individual Featured Events Pages
+ //Same Headers and Footers
+* Above the Content Region -- col-md-12
+  * Featured Events Slider Block -- large photo
+    * Date field
+    * Event Title
+    * Exhibitions
+    * About Event
+    * Images & Comments
+    * Infor & Contact
+  * Mi Piace Block
+* Events menu block region (col-md-12)
+--exhibitions block
+--about Event block
+--Images and Comments block
+--Info and contact block
+-following region
+--following event block
+--social media region (col-md-12)
 --social media block
---photos (works?) block
---comments block
 
-
-
-Events Page
-//Nearly the same layout out as articles
--subheader region
-//content slight different
+Events Exhibitions Page
+//same headers and footers
+//same full page content region
+//Why does this page exist?!?
+ 
+ 
+  ##
+  
+  
 --left info bar (col-md-2)
    --like button
    --Venue
@@ -386,9 +468,6 @@ Events Exhibitions Page
   * Ad Block
   * Square Gallery Teaser Block -- three galleries
   
-
-
-
 ## Gallery Index Page --   /gallery/index     (Main Gallery Index)
 //Same Headers and Footers
 * Content Region -- col-md-09
@@ -434,8 +513,6 @@ Events Exhibitions Page
   * Ad Block
   * Latest Guides Block
   
-  
-
 ## Individual Products Page -- /product/[Product ID]
 //Same Headers and Footers
 * Content Region -- col-md-09
