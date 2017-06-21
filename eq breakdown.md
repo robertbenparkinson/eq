@@ -40,7 +40,7 @@ Modules
 - About Us
 - Advertise with Us
 - Services
-- 
+
 
 ## Main Menu
 ### Articles
@@ -117,12 +117,11 @@ Modules
       * /profile/['user name]/works
         * /profile/['user name]/works/['gallery id'] --must check to see if that is the right id
       * /profile/['user name]/blog
+        * /profile/['user name']/blog/['Blog ID']
       * /profile/['user name]/events
+        * -- Events???
       * /profile/['user name]/likes
-      
-      
-    
-    
+          
   * /location/index    (Main Location Index)
   * /blog/index        (Main Blog Index)
   * /gallery/index     (Main Gallery Index)
@@ -138,52 +137,47 @@ Modules
 - Articles
 - Blogs
 - Products
+- Artists (user profiles) ???
 
-## Front Page
-* page_top region -- col-md-12
---logo
---site name
---main menu
---search form
---language selection button
--header
---login block
---social media login block
---about eq
--main content
---jumbo slider (three events)
---Featured Events Block (six events)
---Featured Works Finder Block - with featured/recent tabs (eight in total)
+## Front Page -- index
+* Page_top region -- col-md-12
+  * Branding Block -- logo and site name
+  * Main Menu Block
+  * Search Form Block
+  * Language Selection Button Block
+* Header Region -- col-md-12
+  * Login Block
+  * Social Media login Block
+  * About EQ Block
+* Front Page Content Region -- col-md-09
+  * Events Slider -- three events
+  * Featured Events Block -- six events
+  * Featured Works Finder Block - with featured/recent tabs eight in total
+* Right Sidebar Region -- col-md-03 
+  * Sidebar articles slider Block -- three articles
+  * Ad block 1
+  * Ad block 2
+  * Ad block 3
+* Second Major Regions -- col-md-12
+  * Blog finder block -- with featured/recent tabs -- four blogs
+  * Articles finder block -- with featured/recent tabs -- four articles
+  * Artist finder block -- with featured/recent tabs -- four artists
+* Third major region -- col-md-12 
+  * forum block -- col-md-9 -- featured/latest/recent tabs -- three posts
+  * guides block -- col-md-3 -- featured/recent tabs -- two posts
+* First Footer Region -- col-md-12
+  * Footer Menu Block
+* Second Footer Region -- col-md-12
+  * Copyright Block
+  * Built By Block
 
--right sidebar
---sidebar articles slider (three articles)
---ad block 1
---ad block 2
---ad block 3
+## Articles Page -- /article/index
+//Same Headers and Footers
+* Content Region -- col-md-9
+  * Featured articles slider block -- three articles
+  * Most recent articles block -- Large teasers -- 10 articles 
+* Right Side Bar Region -- col-md-03 
 
-second major regions (full page)
---blog finder block with featured/recent tabs (four blogs)
---articles finder block with featured/recent tabs (four articles)
---artist finder block with featured/recent tabs (four artists)
-
--third major region (full page)
---forum block (col-md-9) featured/latest/recent tabs (three posts)
---guides block (col-md-3) featured/recent tabs (two posts)
--first footer (col-md-12)
---footer menu
--second footer (col-md-12)
---copyright block
---built by block
-
-Articles Page 
-//page_top the same
-//header the same
-//first footer the same
-//second footer the same
--content (col-md-9)
---featured articles slider block (three articles)
---10 most recent articles block (more than teaser) 
--right sidebar (col-md-3)
 --ad block
 --calender block (does it work?)
 --most recent article on painting block (1 article)
@@ -249,6 +243,66 @@ Events Exhibitions Page
 //same full page content region
 //Why does this page exist?!?
 
+## User Like Page -- /profile/['user name]/likes
+//Same Headers and Footers
+* Above Content Region -- col-md-12
+  * Profile Cover Photo Block
+    * Profil Image Field
+    * User Name Field
+  * Profile Menu Block
+* Content Region -- col-md-09
+  * User Likes Block
+  * Mi Piace Block -- 12 most recent likes -- square teasers
+  * Social Media Block
+  * Comment Block
+* Right Side Bar Region -- col-md-03  
+  * Calender Block
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+
+
+## User Events Page -- /profile/['user name]/events
+/Same Headers and Footers
+* Above Content Region -- col-md-12
+  * Profile Cover Photo Block
+    * Profil Image Field
+    * User Name Field
+  * Profile Menu Block
+* Content Region -- col-md-09
+  * User Events Block
+  * Mi Piace Block
+  * Social Media Block
+  * Comment Block
+* Right Side Bar Region -- col-md-03  
+  * Calender Block
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+
+
+## User Events Page -- /profile/['user name]/events
+/Same Headers and Footers
+* Above Content Region -- col-md-12
+  * Profile Cover Photo Block
+    * Profil Image Field
+    * User Name Field
+  * Profile Menu Block
+* Content Region -- col-md-09
+  * User Events Block
+  * Mi Piace Block
+  * Social Media Block
+  * Comment Block
+* Right Side Bar Region -- col-md-03  
+  * Calender Block
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+
+
 ## User Profile Page -- /profile/['user name]
 //Same Headers and Footers
 * Above Content Region -- col-md-12
@@ -271,7 +325,38 @@ Events Exhibitions Page
   * Ad Block
   * Featured Articles Block -- Three Articles
 
+## User Blogs Page -- /profile/['user name']/blog
+//Headers and Footers are the same
+* Above Content Region -- col-md-12
+  * Profile Cover Photo Block
+    * Profil Image Field
+    * User Name Field
+  * Profile Menu Block
+* Content Regioin -- col-md-09
+  * Recent User Blogs Block -- 10 blogs
+  * Mi Piace Block
+  * Social Media Block
+  * Comment Block
+* Right Side Bar Region -- col-md-03
+  * Calender Block
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+  * Ad Block
+  * Featured Articles Block -- Three Articles
 
+## User Individual Blog Page -- /profile/['user name']/blog/['Blog ID']
+//Headers and Footers are the same
+* Content Region -- col-md-09
+  * Content Block
+  * Mi Piace Block
+  * Social Media Block
+  * Content Block
+* Right Side Bar Region -- col-md-03
+  * Calender Block
+  * Ad Block
+  * Featured Articles Block -- Three Articles
+  * Ad Block
+  * Featured Articles Block -- Three Articles
 
 ## User Profile Individual Works Page
 //Headers and Footer are the same
@@ -283,7 +368,7 @@ Events Exhibitions Page
 * Content Regioin -- col-md-09
   * Album Block
     * Album Title Field
-    * Image Field  -- Thumbnial 
+    * Image Field  -- Thumbnail 
   * Individual Works Block 
     * Work Title Field
     * Image Field -- Large
